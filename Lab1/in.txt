@@ -1,0 +1,17 @@
+int main(){
+    int a[30],b;
+    float c[10],d;
+    c=0;
+    cin>>b;
+    while(b>0){
+        b=b/10;
+        c=b-10;
+        if(c==0){
+            cout<<c;
+        }
+        else{
+            cout<<b;
+        }
+    }
+    return 0;
+}
